@@ -3,10 +3,12 @@
   "displayName": "URP Base",
   "version": "10.5.1",
   "type": "template",
-  "unity": "2020.3",
+  "unity": "2020.2",
   "host": "hub",
   "description": "An empty URP project which uses the new input system",
-  "dependencies": {},
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "10.5.1"
+  },
   "repository": {
     "url": "https://github.com/dorba/unity-project-template",
     "type": "git"
