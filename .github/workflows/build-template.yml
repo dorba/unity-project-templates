@@ -9,10 +9,10 @@ jobs:
         uses: actions/checkout@v2
       # create the archive
       - name: Create the tgz archive
-        run: tar -cvzf com.dorba.template.urp-base-10.5.1.tgz ./package
+        run: tar -cvzf com.dorba.template.urp.base-10.5.1.tgz ./package
       # save as an artifact
       - name: Save the template
         uses: actions/upload-artifact@v2
         with:
-          name: com.dorba.template.urp-base-10.5.1
-          path: ./com.dorba.template.urp-base-10.5.1.tgz
+          name: com.dorba.template.urp.base-10.5.1
+          path: ./com.dorba.template.urp.base-10.5.1.tgz
