@@ -7,7 +7,11 @@
   "host": "hub",
   "description": "An empty URP project which uses the new input system",
   "dependencies": {
+    "com.unity.inputsystem": "1.0.2",
     "com.unity.render-pipelines.universal": "10.5.1"
+  },
+  "upmCi": {
+    "footprint": "d102e69673d1c9fa3cbb7910ee64fb3efad95dc7"
   },
   "repository": {
     "url": "https://github.com/dorba/unity-project-template",
