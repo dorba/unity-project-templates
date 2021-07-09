@@ -1,0 +1,14 @@
+{
+  "name": "com.dorba.urp.base",
+  "displayName": "URP Base",
+  "version": "10.5.1",
+  "type": "template",
+  "unity": "2020.3",
+  "host": "hub",
+  "description": "An empty URP project which uses the new input system",
+  "dependencies": {},
+  "repository": {
+    "url": "https://github.com/dorba/unity-project-template",
+    "type": "git"
+  }
+}
