@@ -1,15 +1,11 @@
-## Unity Custom Project Template
+# About _URP Base_
 
----
+This is an empty URP template, derived from the Unity sample URP 3D project, with the following changes:
 
-### {{PROJECT_NAME}}
-
-### Version {{PROJECT_VERSION}}
-
----
-
-Generated from the unity-project-template repo, for details see:
-
-https://github.com/dorba/unity-project-template
-
-Testing using Unity Hub with Editor version 2020.3.x
+- Example assets are removed
+- Unity editor version 2020.3 is targeted
+- URP version 10.5.1 is used by default
+- The new input system is enabled
+- Cinemachine is included by default
+- Local folders are prefixed with '$' to sort above 3rd party assets
+- The default scene has nothing but a cube, so it may be easily used as a blank starting point
